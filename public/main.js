@@ -26,6 +26,8 @@ fetch("http://localhost:3000/poll")
   const votes = data.votes;
   const totalVotes = votes.length;
 
+
+
   // Count vote points - acc/current
     const voteCounts = votes.reduce(
       (acc, vote) => (
@@ -48,7 +50,7 @@ fetch("http://localhost:3000/poll")
       animationEnabled: true,
       theme: "theme1",
       title: {
-        text: `Total Votes: ${totalVotes}$`
+        text: `Total Votes: ${totalVotes}`
       },
       data: [
         {
