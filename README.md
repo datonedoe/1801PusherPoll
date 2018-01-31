@@ -2,6 +2,7 @@
 
 The program surveys user their preferred OS system and shows answer distribution.
 
+![alt demo](./demo.png)
 ### Prerequisites
 
 A Pusher account and a newly created project
